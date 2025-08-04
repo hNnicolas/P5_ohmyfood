@@ -1,43 +1,58 @@
-# 🍽️ Ohmyfood - Next.js
+# 🍽️ Ohmyfood – Next.js
 
-> Projet 5 - OpenClassrooms - Développeur Front-End
+> **Projet 5 - OpenClassrooms - Parcours Développeur Front-End**
+
+![Aperçu du projet](public/screenshot_ohmyfood.png)
+
+---
 
 ## 🌐 Présentation
 
-Ohmyfood est une application web permettant aux utilisateurs de consulter des menus gastronomiques et de composer leur repas à l’avance.  
-Ce projet a été réalisé en **Next.js** pour tirer parti du rendu côté serveur et de la structuration avancée des composants React.
+Ohmyfood est une application web responsive qui permet aux utilisateurs de découvrir les menus de restaurants gastronomiques et de composer leur repas à l’avance.
 
-L’objectif principal est de simuler un site vitrine pour plusieurs restaurants, avec un **design soigné**, des **animations fluides** et une **navigation optimisée**.
+Ce projet met l'accent sur l'intégration soignée d'une maquette Figma, l'expérience utilisateur via des **animations CSS**, et la **performance du rendu** avec **Next.js**.
+
+🔗 **Démo en ligne :** [https://p5-ohmyfood.netlify.app](https://p5-ohmyfood.netlify.app)
 
 ---
 
 ## ⚙️ Stack technique
 
-- **Next.js 14 (App Router)**
-- **React 18**
-- **CSS Modules** pour le style
-- **Images optimisées** via le dossier `public/`
-- **Google Fonts** et SVG pour l’UI
-- Aucune base de données (les données proviennent d’un fichier `restaurants.json` local)
+- ✅ **Next.js 14 (App Router)**
+- ⚛️ **React 18**
+- 🎨 **CSS Modules**
+- 📷 **Optimisation d’images** via le dossier `public/`
+- 🖋️ **Google Fonts** et **SVG personnalisés**
+- 📁 Données locales (`restaurants.json`) – sans backend
 
 ---
 
-## 🖼️ Fonctionnalités principales
+## 🖼️ Fonctionnalités
 
-- Page d’accueil listant les restaurants disponibles
-- Navigation vers les pages détaillées de chaque restaurant
-- Affichage du menu par étapes (entrée / plat / dessert)
-- Ajout d’animations pour enrichir l’expérience utilisateur :
-  - Effet de chargement des plats
-  - Transition des menus
-  - Boutons interactifs
+- Page d’accueil listant les restaurants
+- Navigation dynamique vers les menus
+- Affichage progressif des plats (entrée / plat / dessert)
+- Animations CSS :
+  - Loader de chargement
+  - Transitions de menus
+  - Effets interactifs sur les boutons
 
 ---
 
-## 🛠️ Installation & lancement
+## 🚀 Installation locale
 
-1. Clone ce dépôt :
-   ```bash
-   git clone git@github.com:hNnicolas/P5_ohmyfood.git
-   cd P5_ohmyfood
-   ```
+> ✅ **Node.js requis :** v22.13.1 ou supérieur
+
+### 🔧 Étapes à suivre :
+
+```bash
+# 1. Cloner le dépôt
+git clone git@github.com:hNnicolas/P5_ohmyfood.git
+cd P5_ohmyfood
+
+# 2. Installer les dépendances
+npm install
+
+# 3. Lancer le serveur de développement
+npm run dev
+```
